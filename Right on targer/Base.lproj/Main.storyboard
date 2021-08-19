@@ -38,6 +38,10 @@
                                     <action selector="checkNumber" destination="BYZ-38-t0r" eventType="touchUpInside" id="WPc-m1-YzQ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSj-Jf-sOC">
+                                <rect key="frame" x="834" y="363" width="42" height="30"/>
+                                <state key="normal" title="About"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
@@ -47,10 +51,13 @@
                             <constraint firstItem="ehT-r8-TXC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="YBZ-o2-Abv"/>
                             <constraint firstItem="ijh-wz-Yw7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bU8-w8-aTA"/>
                             <constraint firstItem="Npe-UY-X45" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fRA-pg-4F7"/>
+                            <constraint firstItem="KSj-Jf-sOC" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="gji-rP-is9"/>
                             <constraint firstItem="ehT-r8-TXC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="s4D-Ys-d7Q"/>
+                            <constraint firstAttribute="trailing" secondItem="KSj-Jf-sOC" secondAttribute="trailing" constant="20" id="sKw-S4-bDu"/>
                             <constraint firstItem="ijh-wz-Yw7" firstAttribute="top" secondItem="Npe-UY-X45" secondAttribute="bottom" constant="30" id="yQl-6i-5g7"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="3az-wT-DAN"/>
                     <connections>
                         <outlet property="label" destination="ijh-wz-Yw7" id="deA-0w-Qoe"/>
                         <outlet property="slider" destination="ehT-r8-TXC" id="eQ9-tT-pfK"/>
@@ -58,7 +65,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="129" y="89"/>
+            <point key="canvasLocation" x="871.875" y="88.405797101449281"/>
         </scene>
     </scenes>
     <resources>

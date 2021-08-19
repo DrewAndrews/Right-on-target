@@ -13,6 +13,8 @@
 		68CCA99026CE113A00C6C633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CCA98E26CE113A00C6C633 /* Main.storyboard */; };
 		68CCA99226CE113B00C6C633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CCA99126CE113B00C6C633 /* Assets.xcassets */; };
 		68CCA99526CE113B00C6C633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CCA99326CE113B00C6C633 /* LaunchScreen.storyboard */; };
+		68CCA99D26CE48EB00C6C633 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CCA99C26CE48EB00C6C633 /* SecondViewController.swift */; };
+		68CCA9A026CEAC9700C6C633 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CCA99F26CEAC9700C6C633 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		68CCA99126CE113B00C6C633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68CCA99426CE113B00C6C633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68CCA99626CE113B00C6C633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68CCA99C26CE48EB00C6C633 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		68CCA99F26CEAC9700C6C633 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		68CCA98726CE113A00C6C633 /* Right on targer */ = {
 			isa = PBXGroup;
 			children = (
+				68CCA99E26CEAC7700C6C633 /* Model */,
 				68CCA98826CE113A00C6C633 /* AppDelegate.swift */,
 				68CCA98A26CE113A00C6C633 /* SceneDelegate.swift */,
 				68CCA98C26CE113A00C6C633 /* ViewController.swift */,
+				68CCA99C26CE48EB00C6C633 /* SecondViewController.swift */,
 				68CCA98E26CE113A00C6C633 /* Main.storyboard */,
 				68CCA99126CE113B00C6C633 /* Assets.xcassets */,
 				68CCA99326CE113B00C6C633 /* LaunchScreen.storyboard */,
 				68CCA99626CE113B00C6C633 /* Info.plist */,
 			);
 			path = "Right on targer";
+			sourceTree = "<group>";
+		};
+		68CCA99E26CEAC7700C6C633 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68CCA99F26CEAC9700C6C633 /* Game.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68CCA99D26CE48EB00C6C633 /* SecondViewController.swift in Sources */,
+				68CCA9A026CEAC9700C6C633 /* Game.swift in Sources */,
 				68CCA98D26CE113A00C6C633 /* ViewController.swift in Sources */,
 				68CCA98926CE113A00C6C633 /* AppDelegate.swift in Sources */,
 				68CCA98B26CE113A00C6C633 /* SceneDelegate.swift in Sources */,
@@ -293,7 +309,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Rusinovich.Right-on-targer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -313,7 +329,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Rusinovich.Right-on-targer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
